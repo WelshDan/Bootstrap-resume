@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*------------------------------------Colours */
 
@@ -7,7 +7,7 @@
 }
 
 .bg-color-three-reasons {
-    color: #fff;
+    background-color: #fff;
 }
 
 .bg-color-personal-info {
@@ -40,10 +40,10 @@
 
 /*------------------------------------Special paddings/markings/text */
 
-h1
-h2
-h3
-h4 {
+h1,
+h2,
+h3,
+h4, {
     margin: 0;
 }
 
@@ -125,13 +125,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -343,7 +343,7 @@ footer {
 /*------------------------------------Contact Form */
 
 .contact-heading {
-    font-family: "Exo", sant serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
